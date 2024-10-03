@@ -48,7 +48,7 @@ Dönem boyunca verilecek ödevlerin listesi json formatlı bir dosyadan okunarak
 - Override ile davranış değiştirme
 - Basit veri türleri kullanımı
 - Encapsulation
-- Liste verisi ve döngü kullanımı
+- Generic liste verisi ve döngü kullanımı
 
 ### Kazanımlar
 
@@ -66,40 +66,91 @@ Bu uygulama sonrasında öğrencilerden bazı sorular beklenir veya bir tartış
 
 ## Hello World II
 
+Bu versiyon da Hello World I uygulamasındaki profile aktarılabilir.
+
 ### Senaryo II
+
+Bu sefer elimizde CSV formatında bir kullanıcı listesi var. Kullanıcıların ad soyad bilgileri, sisteme giriş adları ve e-posta adresleri yer alıyor. Satır bazından kullanıcıların okunması ve ekrana yazdırılması konusu işleniyor.
 
 ### Kullanılan Kavramlar II
 
+- CSV dosya formatının kullanılırlığı _(Halen pek çok büyük mainframew bu tip dosya formatlarında içerik sunabilir. Hatta bir Excel çıktısı bile CSV olarak sisteme dahil edilebilir)_
+- Dosya satırlarının nesne modellemesi
+- class/struct ve record kullanımı _(Başlangıçta class/struct olarak tasarlanan veri modelinin salt okunur bir yapıda kullanılması sebebiyle record veri yapısına geçilir ve böylece üç farklı veri yapısı tanıtılmış olur)_
+- Constrcutor ile nesne inşası
+- Readonly field/property kullanımı
+- Basit döngü kurguları
+- Generic liste verisi ve döngü kullanımı
+
 ### Kazanımlar II
+
+Bu senaryoda yine çalışma zamanı _(runtime)_ dışındaki bir ortamdan veri çekilmesi ve belleğe alınarak kullanımı planlanmaktadır. CSV, yaygın kullanılan dosya formatlarından birisidir ve şeması belli veri yapılarının anlatılmasından önce bir altyapı sağlayacaktır. Böylece veri odaklı uygulamalarda veriyi saklama yolları, sistemler arası transferi ve bu esnada kullanılan protokollerin önemli tartışmaya açılabilir. POCO _(Plain Old CLR Object ya da Dummy Entity)_ olarak tasarlanan User veri modeli nihayetinde record türü olarak tanımlanmıştır. Böylece record veri türünün hangi senaryolarda ele alınacağı üzerine tartışılabilinir. IdentityManager yapısında constructor kavramı ele alınırken varsayılan _(default)_ verisyonun ezilmesi ve sonuçları ortaya konur. Her zaman olduğu gibi sorumlulukların doğru dağıtımı vurgulanmaya çalışılır ve SOLID'in Single Responsibility ilkesi ufaktan düşünce tohumu haline getirilir.
 
 ### Tartışma Soruları II
 
+- Struct veya class yerine neden record gibi bir veri türü kullanıyoruz _(Bellek üzerindeki açılımları, stack ve heap bazındaki yorumlamaları araştırma konusu olarak tavsiye edilir)_
+- Dosya kolonlarına erişirken 0,1,2 gibi rakamlar program kodunu okuyan için anlamlı değil. Alternatif ne olabilir _(Enum türüne yönlendirme, mapping kavramları öne çıkarılır)_
+- Dosya şema yapısı değişirse ne olur?
+- Dosya lokasyonu değişirse ne olur?
+- Aynı veri kümesini CSV yerine farklı formatlarda sağlamak istediğimizde program kodu bunu nasıl ele alır?
+- IdentityManager isimlendirmesi mantıklı mıdır? _(Özellikle bu sınıfın aslında bir dosyadan kullanıcı listesi okuyup bir koleksiyonda sakladığı düşünülürse)_
+
 ## Hello World III
+
+NotImplementedException();
 
 ### Senaryo III
 
+NotImplementedException();
+
 ### Kullanılan Kavramlar III
+
+NotImplementedException();
 
 ### Kazanımlar III
 
+NotImplementedException();
+
 ### Tartışma Soruları III
+
+NotImplementedException();
 
 ## Hello World IV
 
+NotImplementedException();
+
 ### Senaryo IV
+
+NotImplementedException();
 
 ### Kullanılan Kavramlar IV
 
+NotImplementedException();
+
 ### Kazanımlar IV
+
+NotImplementedException();
 
 ### Tartışma Soruları IV
 
+NotImplementedException();
+
 ## Hello World V
+
+NotImplementedException();
 
 ### Senaryo V
 
+NotImplementedException();
+
 ### Kullanılan Kavramlar V
+
+NotImplementedException();
 
 ### Kazanımlar V
 
+NotImplementedException();
+
 ### Tartışma Soruları V
+
+NotImplementedException();
