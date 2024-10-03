@@ -1,6 +1,8 @@
 # Hello World But How
 
-Bir programlama dilini öğrenmeye başladığımızda genellikle ilk yapılan örnek HelloWorld, hello_world_, helloWorld, hw benzeri isimlendirmelerle hazırlanan merhaba uygulamaları olur. Pek çok başlangıç rehberi veya kılavuzu ortam üzerinden ekrana birşey yazdırmakla yetinir. İlk kez programlama deneyimi yaşayanlar için ideal bir senaryo gibi dursa da en azından birkaç yıllık programlama deneyimi olan veya farklı programlama dili/dilleri ile bir şeyler geliştirmiş bireyler için bu tip başlangıçlar tad vermeyebilir. Bu profile uyanlar için bazen karşılaştırmalı senaryolar ortaya koymak ya da birden fazla dil özelliği ile materyalini beraberce gösterebileceğimiz örnek senaryolar üzerinden hareket etmek daha anlamlı olabilir. Eğer bu bir eğitim serisi olacaksa ileride tekrardan dönülebilecek ya da içeriği kullanılabilecek türden giriş uygulamaları daha yerinde bir seçim olabilir. Bu tip girizgahlarda profilin zaten öğreneceği programlama dili için gerekli ortamları hazırladığı ya da kolayca muhakeme yapıp sorgulayacağı düşünülmelidir. Örneğin yıllarca ABC dili ile geliştirme yapmış bir ekibe XYZ dilini anlatacağımızı düşünelim ya da üniversite öğrencilerine daha önceden gördükleri programlama derslerinden farklı bir tanesini. Bu gibi durumlarda kişisel görüşüm programlama dilinin birden fazla özelliğinin bir arada kullanıldığı, çıktısı değerlendirilebilir/tartışılabilir program kodları yazmak olacaktır. Hatta anlatılan kitle için araştırma yapmalarını gerektirecek parçalar bırakmak çok yerinde olacak, tek taraflı bir anlatım yerini sürdürülebilir ve katılımcı bir iletişime bırakacaktır. İşte bu felsefe ile yola çıkarak mesleki hayatım boyunca sıklıkla kullandığım C# dilinde Hello World yazmak istesem nasıl yapardım sorusuna cevap bulmaya çalışıyorum. Bu reponun açılma amacı tamamen buna hizmet ediyor. Kişisel görüşme göre bu senaryolar ve uygulama metodolojisi, farklı programlama dilleri için de söz konusu olabilir.
+Bir programlama dilini öğrenmeye başladığımızda genellikle ilk yapılan örnek HelloWorld, hello_world_, helloWorld, hello-world benzeri isimlendirmelerle hazırlanan merhaba uygulamaları olur. Pek çok başlangıç rehberi veya kılavuzu ortam üzerinden ekrana birşey yazdırmakla yetinir. İlk kez programlama deneyimi yaşayanlar için ideal bir senaryo gibi dursa da en azından birkaç yıllık programlama deneyimi olan veya farklı programlama dili/dilleri ile bir şeyler geliştirmiş bireyler için bu tip başlangıçlar tad vermeyebilir. Bu profile uyanlar için bazen karşılaştırmalı senaryolar ortaya koymak ya da birden fazla dil özelliği ile materyalini beraberce gösterebileceğimiz örnek senaryolar üzerinden hareket etmek daha anlamlıdır. Eğer bu bir eğitim serisi olacaksa ileride tekrardan bakılabilecek ya da içeriği kullanılabilecek türden giriş uygulamaları daha yerinde bir seçim olacaktır. Bu tip girizgahlarda profilin zaten öğreneceği programlama dili için gerekli ortamları hazırladığı ya da kolayca muhakeme yapıp sorgulayacağı düşünülmelidir. Örneğin yıllarca ABC dili ile geliştirme yapmış bir ekibe XYZ dilini anlatacağımızı düşünelim ya da üniversite öğrencilerine daha önceden gördükleri programlama derslerinden farklı bir tanesini. Kabul ve yönlendirme, kitlenin bazı hazırlıkları kendisinin yapması gerektiği üzerine olmalıdır. Kişisel görüşüm bu gibi durumlarda programlama dilinin birden fazla özelliğinin beraber kullanıldığı, çıktısı tartışılabilir, yeniden düzenlenmeye _(refactor)_ edilmeye açık _(bu sayede Clean Code teorilerine geçiş kolaylaşır)_ program kodları yazarak ilerlemektir. Hatta anlatılan kitle için araştırma yapmalarını sağlayacak tavsiyeler bırakmak çok yerinde olacak, tek taraflı bir anlatım yerini sürdürülebilir ve katılımcı bir iletişime bırakacaktır. İşte bu felsefe ile yola çıkıp mesleki hayatım boyunca sıklıkla kullandığım C# dilinde Hello World yazmak istesem nasıl yapardım sorusuna cevap vermeye çalışıyorum. Bu reponun açılma amacı tamamen buna hizmet ediyor. Kişisel görüşme göre bu senaryolar ve uygulama metodolojisi, farklı programlama dilleri için de söz konusu olabilir.
+
+Tabii burada kodlama ifadeler, anahtar kelimeler profile yabancı gelebilir/gelecektir. Ancak bu sürekli kod yazma pratiği ile alakalıdır. Hello World uygulamalarında amaç, dilin genel felsefesini _(burada OOP)_ sağlamış olduğu araçların küçük bir kümesi ile gerçeklenebilir senaryolar üzerinde gösterebilmektir. Bir başka deyişle syntax veya anahtar kelimeler dert edilmesi gereken son şeyler olmalıdır.
 
 - [Giriş](#hello-world-but-how)
   - [Hello World I](#hello-world-i)
@@ -35,7 +37,7 @@ Bir programlama dilini öğrenmeye başladığımızda genellikle ilk yapılan �
 
 ## Hello World I
 
-Bu versiyon daha çok üniversite son sınıf öğrencileri veya yazılım kursiyerleri için kullanılabilir. Bir programlama dili dersini almış ya da uğraşmış olmak veya birkaç yıl programlama tecrübesi edinmiş olmak _(bireysel çalışmalarla da olabilir, staj programlarındaki bölümlerde de olabilir)_ ön gereksinimlerdendir. Senaryo işletici kod zorlayıcı olabilir ancak amaç düşünmeye itmek ve sorgulatmaktır.
+Bu versiyon daha çok üniversite son sınıf öğrencileri veya yazılım kursiyerleri için kullanılabilir. Bir programlama dili dersini almış ya da uğraşmış olmak veya birkaç yıl programlama dili tecrübesi edinmiş olmak _(bireysel çalışmalarla da olabilir, staj programlarındaki işlerle de gerçeklenebilir)_ ön gereksinimlerdendir. Senaryoyu işleten kod zorlayıcı olabilir ancak amaç düşünmeye itmek ve sorgulatmaktır.
 
 ### Senaryo 
 
@@ -52,7 +54,7 @@ Dönem boyunca verilecek ödevlerin listesi json formatlı bir dosyadan okunarak
 
 ### Kazanımlar
 
-Bu senaryoda ödevler JSON bazlı bir dosyada durur. .Net çalışma ortamının dışında JSON standartlarında tutulan bir veri içeriğinin, nesne yönelimli dil özellikleri barındıran C# ortamında nasıl ele alınacağına bakılır. Amaç dış dünya kavramlarını nesne olarak modellemenin yollarını tartışmaktır. Model nesnesi tanımı bir başlangıçtır. İçeriğinin doldurulması .Net'in yardımcı kütüphaneleri ile gerçekleştirilir. Bu dilin bazı noktalarda built-in gelen paketleri kullanarak işleri nasıl kolaylaştırdığını göstermenin ve Nuget ortamının araştırma tavsiyesi olarak verilmesinin de bir yoludur. Bu kavramlar üzerinde geçilirken verinin nasıl sembolize edileceği sorusu gündeme gelir ve basit veri tipleri kullanıma alınır. Ödevleri benzersizleştirmek için kullanılan Guid ekstra bir bonus olarak görülebilir. Kritik noktalardan birisi Supervisor sınıfının inşasıdır. Yavaştan öğrencilerin bünyesinde sorumlulukların doğru dağıtılması için gerekli motivasyon aktarılmaya çalışılır ancak açık uçlu sorular bırakılır. ToString metodundan yola çıkılarak ata tür _(super class, super object, base object artık nasıl isimlendirirsek)_ kavramına değinilir ve ortak davranışların değiştirilmesi gündeme taşınır.
+Bu senaryoda ödevler **JSON** bazlı bir dosyada durur. **.Net** çalışma ortamının dışında **JSON** standartlarında tutulan bir veri içeriğinin, nesne yönelimli dil özellikleri barındıran C# ortamında nasıl ele alınacağına bakılır. Amaç dış dünya kavramlarını nesne olarak modellemenin yollarını tartışmaktır. Model nesnesi tanımı bir başlangıçtır. İçeriğinin doldurulması .Net'in yardımcı kütüphaneleri ile gerçekleştirilir. Bu, dilin bazı noktalarda **built-in** gelen paketleri kullanarak işleri nasıl kolaylaştırdığını göstermenin ve **Nuget** ortamını araştırma tavsiyesi olarak vermenin de bir yoludur _(Hatta bir Nuget klonunun yazılması dönem ödevi olarak sunulabilir)_ Bu kavramlar üzerinden geçilirken verinin nasıl ifade edileceği sorusu gündeme gelir ve basit veri tipleri gündeme alınır. Ödevleri benzersizleştirmek için kullanılan **Guid** ekstra bir bonus olarak görülebilir. Kritik noktalardan birisi **Supervisor** sınıfının inşasıdır. Ufak ufak, öğrencilerin bünyesinde sorumlulukların doğru dağıtılması için gerekli motivasyon aktarılmaya çalışılır ancak açık uçlu sorular da ortaya bırakılır. ToString metodundan yola çıkılarak ata tür _(super class, super object, base object artık nasıl isimlendirirsek)_ kavramına değinilir ve ortak davranışların değiştirilmesi gündeme taşınır.
 
 ### Tartışma Soruları
 
@@ -61,20 +63,21 @@ Bu uygulama sonrasında öğrencilerden bazı sorular beklenir veya bir tartış
 - Dosya adı yanlış yazılırsa veya lokasyonu değişirse ne olur?
 - Json içeriğindeki bir alan kaldırılırsa ne olur?
 - Veri json dosya yerince csv tabanlı bir dosyadan okunmak isterse nasıl bir yönteme gidilir?
-- Level, sayısal bir değer yerine daha akılda kalıcı bir isimle ifade edilebilir mi? _(Enum türü için yönlendirme)_
-- Döngü için tek kullanım şeklide foreach midir? Farklı yollar var mıdır? _(Diğer yolları pratik etmek için ödev verilebilir)_
+- Söz konusu veriler dosyalardan okunmak zorunda mıdır? Farklı makinelerden, farklı process'lerden çekilebilir mi? _(İş modellerinin çoğunlukla kapalı devre modeller üzerinde koşmadığı, dağıtık yapıların da var olduğu ve sıklıkla kullanıldığı düşünceleri eşliğinde tartışılabilir)_
+- Level, sayısal bir değer yerine daha akılda kalıcı bir şekilde ifade edilebilir mi? _(Enum türü için yönlendirme)_
+- Döngü olarak tek kullanım şekli foreach midir? Farklı yollar var mıdır? _(Diğer yolları pratik etmek için ödev verilebilir)_
 
 ## Hello World II
 
-Bu versiyon da Hello World I uygulamasındaki profile aktarılabilir.
+Bu versiyon da Hello World I uygulamasındaki profil ve üstü için uygundur.
 
 ### Senaryo II
 
-Bu sefer elimizde CSV formatında bir kullanıcı listesi var. Kullanıcıların ad soyad bilgileri, sisteme giriş adları ve e-posta adresleri yer alıyor. Satır bazından kullanıcıların okunması ve ekrana yazdırılması konusu işleniyor.
+Bu sefer elimizde **CSV** formatında bir kullanıcı listesi bulunuyor. Kullanıcıların ad soyad bilgileri, sisteme giriş adları ve e-posta adresleri yer alıyor. Kullanıcı bilgilerinin satır bazında okunması ve ekrana yazdırılması söz konusu.
 
 ### Kullanılan Kavramlar II
 
-- CSV dosya formatının kullanılırlığı _(Halen pek çok büyük mainframew bu tip dosya formatlarında içerik sunabilir. Hatta bir Excel çıktısı bile CSV olarak sisteme dahil edilebilir)_
+- CSV dosya formatının kullanılırlığı _(Halen pek çok büyük mainframe bu tip dosya formatlarında içerik sunabilir. Hatta bir Excel çıktısı bile CSV olarak sisteme dahil edilebilir. Hatta segment bazlı dosyalar da tartışılabilir)_
 - Dosya satırlarının nesne modellemesi
 - class/struct ve record kullanımı _(Başlangıçta class/struct olarak tasarlanan veri modelinin salt okunur bir yapıda kullanılması sebebiyle record veri yapısına geçilir ve böylece üç farklı veri yapısı tanıtılmış olur)_
 - Constrcutor ile nesne inşası
@@ -84,12 +87,12 @@ Bu sefer elimizde CSV formatında bir kullanıcı listesi var. Kullanıcıların
 
 ### Kazanımlar II
 
-Bu senaryoda yine çalışma zamanı _(runtime)_ dışındaki bir ortamdan veri çekilmesi ve belleğe alınarak kullanımı planlanmaktadır. CSV, yaygın kullanılan dosya formatlarından birisidir ve şeması belli veri yapılarının anlatılmasından önce bir altyapı sağlayacaktır. Böylece veri odaklı uygulamalarda veriyi saklama yolları, sistemler arası transferi ve bu esnada kullanılan protokollerin önemli tartışmaya açılabilir. POCO _(Plain Old CLR Object ya da Dummy Entity)_ olarak tasarlanan User veri modeli nihayetinde record türü olarak tanımlanmıştır. Böylece record veri türünün hangi senaryolarda ele alınacağı üzerine tartışılabilinir. IdentityManager yapısında constructor kavramı ele alınırken varsayılan _(default)_ verisyonun ezilmesi ve sonuçları ortaya konur. Her zaman olduğu gibi sorumlulukların doğru dağıtımı vurgulanmaya çalışılır ve SOLID'in Single Responsibility ilkesi ufaktan düşünce tohumu haline getirilir.
+Bu senaryoda yine çalışma zamanı _(runtime)_ dışındaki bir ortamdan veri çekilmesi ve belleğe alınarak kullanımı planlanmaktadır. **CSV** türü yaygın kullanılan dosya formatlarından birisidir ve şeması belli veri yapılarının anlatılmasından önce bir altyapı sağlayacaktır. Böylece veri odaklı uygulamalarda veriyi saklama yolları, veriler arasındaki ilişkileri kurmak, şemasız veri modelleri, sistemler arası transferi ve bu esnada kullanılan protokollerin önemi ilerleyen derslerde tartışmaya açılabilir. **POCO** _(Plain Old CLR Object ya da Dummy Entity)_ olarak tasarlanan **User** veri modeli nihayetinde **record** türü olarak tanımlanmıştır. Böylece **record** veri türünün hangi senaryolarda ele alınacağı üzerine tartışma açılabilir. **IdentityManager** yapısında **constructor** kavramı ele alınırken varsayılan _(default)_ verisyonun ezilmesi ve sonuçları ortaya konur. Her zaman olduğu gibi sorumlulukların doğru dağıtımı vurgulanmaya çalışılır ve **SOLID**'in **Single Responsibility** ilkesi ufaktan düşünce tohumu haline getirilir.
 
 ### Tartışma Soruları II
 
-- Struct veya class yerine neden record gibi bir veri türü kullanıyoruz _(Bellek üzerindeki açılımları, stack ve heap bazındaki yorumlamaları araştırma konusu olarak tavsiye edilir)_
-- Dosya kolonlarına erişirken 0,1,2 gibi rakamlar program kodunu okuyan için anlamlı değil. Alternatif ne olabilir _(Enum türüne yönlendirme, mapping kavramları öne çıkarılır)_
+- Struct veya class yerine neden record veri türü kullanıyoruz? _(Bellek üzerindeki açılımları, stack ve heap bazındaki yorumlamaları araştırma konusu olarak tavsiye edilir)_
+- Dosya kolonlarına erişirken 0,1,2 gibi rakamlar program kodunu okuyan için anlamlı değil. Alternatif/ler ne olabilir? _(Enum türüne yönlendirme, mapping kavramları öne çıkarılır)_
 - Dosya şema yapısı değişirse ne olur?
 - Dosya lokasyonu değişirse ne olur?
 - Aynı veri kümesini CSV yerine farklı formatlarda sağlamak istediğimizde program kodu bunu nasıl ele alır?
@@ -97,23 +100,29 @@ Bu senaryoda yine çalışma zamanı _(runtime)_ dışındaki bir ortamdan veri 
 
 ## Hello World III
 
-NotImplementedException();
+İlk iki senaryoda bahsedilen profil ve üstü bu senaryoda ile de çalışabilir.
 
 ### Senaryo III
 
-NotImplementedException();
+Bu sefer oyun motorlarının ilerleyen derslerde **Entity Component System**'e evrilebilecek bir senaryo üzerinde durulur. İki boyutlu bir platformer oyununda oyuncu ve rakibin yönetici bir nesne içerisinde kurgulanması ve sadece başlangıç konumunda set edilen içeriğin ekrana yazdırılması üzerinde durulur.
 
 ### Kullanılan Kavramlar III
 
-NotImplementedException();
+- Key;Value türevli koleksiyon kullanımı
+- Key;Value türlerinde Value olarak liste verisi kullanımı
+- Nesne davranışı değiştirme _(ToString override)_
+- Ortak bileşenler için türetmeden _(Inheritance)_ tanımlama _(World nesnesindeki dictionary koleksiyonunda önce Object türü kullanılır ama sonra olması gerektiği gibi bir başka türetme değerlendirilir)_
+- Object ata türü ve riskleri
+- Türetme ve generic kullanımı
 
 ### Kazanımlar III
 
-NotImplementedException();
+Bu senaryo zor görünse de aslında yapılan bol bol sınıf tasarlamak, bu sınıflara ait koleksiyonlar kullanmaktan ibarettir. Çok ilkel olarak platform oyununda hareket etme, yerleşim, kuvvet ve sağlık/can gibi bileşenler gerçekten de bir **Component** olarak düşünülür. Component'leri birleştirip bunları bir **Entity** olarak ifade etmek ve bu düşünce felsefesini aktarmak çok kritiktir. Böylece oyun sahasındaki bir karakterin esasında kendisi ile ilişkili bileşenleri içeren bir başka nesne olduğu ifade edilir. Başlangıçta her şeyin **Object** türünden geldiği düşünülerek farklı nesnelerin aynı tür koleksiyonda toplanması üzerinde durulur. **Object** türü kullanımının sakıncası ortaya konulduktan sonra türetme ve generic kavramlarından bahsedilir.
 
 ### Tartışma Soruları III
 
-NotImplementedException();
+- World nesnesinde belli bileşenlere sahip nesneleri nasıl buluruz? _(Mesela sadece velocity kabiliyeti olanları bulmak gibi. Bu ECS'in System fonksiyonlarını açıklayacak bir tartışmadır)_
+- Çok fazla bileşenden oluşan nesne listelerinde aranan belli bir Entity'ye çabuk gitmenin bir yolu olabilir mi? _(Yüzlerce nesnenin olduğu bir senaryoda FPS döngüsünde işleyen fonksiyonlar sıklıkla bir takım Entity'leri bulmak zorunda kalacaktır. Hızlı bir şekilde bunlara erişmenin yolları arama algoritmalarını da gündeme taşıyabilir)_
 
 ## Hello World IV
 
