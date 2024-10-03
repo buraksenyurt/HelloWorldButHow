@@ -10,9 +10,29 @@ Bir programlama dilini öğrenmeye başladığımızda genellikle ilk yapılan �
     - [Tartışma Soruları](#tartışma-soruları)
     - [Video Anlatım](#video-anlatım)
   - [Hello World II](#hello-world-ii)
+    - [Senaryo](#senaryo)
+    - [Kullanılan Kavramlar](#kullanılan-kavramlar)
+    - [Kazanımlar](#kazanımlar)
+    - [Tartışma Soruları](#tartışma-soruları)
+    - [Video Anlatım](#video-anlatım)
   - [Hello World III](#hello-world-iii)
+    - [Senaryo](#senaryo)
+    - [Kullanılan Kavramlar](#kullanılan-kavramlar)
+    - [Kazanımlar](#kazanımlar)
+    - [Tartışma Soruları](#tartışma-soruları)
+    - [Video Anlatım](#video-anlatım)
   - [Hello World IV](#hello-world-iv)
+    - [Senaryo](#senaryo)
+    - [Kullanılan Kavramlar](#kullanılan-kavramlar)
+    - [Kazanımlar](#kazanımlar)
+    - [Tartışma Soruları](#tartışma-soruları)
+    - [Video Anlatım](#video-anlatım)
   - [Hello World V](#hello-world-v)
+    - [Senaryo](#senaryo)
+    - [Kullanılan Kavramlar](#kullanılan-kavramlar)
+    - [Kazanımlar](#kazanımlar)
+    - [Tartışma Soruları](#tartışma-soruları)
+    - [Video Anlatım](#video-anlatım)
 
 ## Hello World I
 
@@ -51,16 +71,40 @@ Kısmet diyelim :D
 
 ## Hello World II
 
-Senaryo :
+### Senaryo
+
+### Kullanılan Kavramlar
+
+### Kazanımlar
+
+### Tartışma Soruları
 
 ## Hello World III
 
-Senaryo :
+### Senaryo
+
+### Kullanılan Kavramlar
+
+### Kazanımlar
+
+### Tartışma Soruları
 
 ## Hello World IV
 
-Senaryo :
+### Senaryo
+
+### Kullanılan Kavramlar
+
+### Kazanımlar
+
+### Tartışma Soruları
 
 ## Hello World V
 
-Senaryo :
+### Senaryo
+
+### Kullanılan Kavramlar
+
+### Kazanımlar
+
+### Tartışma Soruları
