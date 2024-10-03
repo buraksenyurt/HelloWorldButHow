@@ -8,31 +8,30 @@ Bir programlama dilini öğrenmeye başladığımızda genellikle ilk yapılan �
     - [Kullanılan Kavramlar](#kullanılan-kavramlar)
     - [Kazanımlar](#kazanımlar)
     - [Tartışma Soruları](#tartışma-soruları)
-    - [Video Anlatım](#video-anlatım)
   - [Hello World II](#hello-world-ii)
-    - [Senaryo](#senaryo)
-    - [Kullanılan Kavramlar](#kullanılan-kavramlar)
-    - [Kazanımlar](#kazanımlar)
-    - [Tartışma Soruları](#tartışma-soruları)
-    - [Video Anlatım](#video-anlatım)
+    - [Senaryo](#senaryo-ii)
+    - [Kullanılan Kavramlar](#kullanılan-kavramlar-ii)
+    - [Kazanımlar](#kazanımlar-ii)
+    - [Tartışma Soruları](#tartışma-soruları-ii)
+    - [Video Anlatım](#video-anlatım-ii)
   - [Hello World III](#hello-world-iii)
-    - [Senaryo](#senaryo)
-    - [Kullanılan Kavramlar](#kullanılan-kavramlar)
-    - [Kazanımlar](#kazanımlar)
-    - [Tartışma Soruları](#tartışma-soruları)
-    - [Video Anlatım](#video-anlatım)
+    - [Senaryo](#senaryo-iii)
+    - [Kullanılan Kavramlar](#kullanılan-kavramlar-iii)
+    - [Kazanımlar](#kazanımlar-iii)
+    - [Tartışma Soruları](#tartışma-soruları-iii)
+    - [Video Anlatım](#video-anlatım-iii)
   - [Hello World IV](#hello-world-iv)
-    - [Senaryo](#senaryo)
-    - [Kullanılan Kavramlar](#kullanılan-kavramlar)
-    - [Kazanımlar](#kazanımlar)
-    - [Tartışma Soruları](#tartışma-soruları)
-    - [Video Anlatım](#video-anlatım)
+    - [Senaryo](#senaryo-iv)
+    - [Kullanılan Kavramlar](#kullanılan-kavramlar-iv)
+    - [Kazanımlar](#kazanımlar-iv)
+    - [Tartışma Soruları](#tartışma-soruları-iv)
+    - [Video Anlatım](#video-anlatım-iv)
   - [Hello World V](#hello-world-v)
-    - [Senaryo](#senaryo)
-    - [Kullanılan Kavramlar](#kullanılan-kavramlar)
-    - [Kazanımlar](#kazanımlar)
-    - [Tartışma Soruları](#tartışma-soruları)
-    - [Video Anlatım](#video-anlatım)
+    - [Senaryo](#senaryo-v)
+    - [Kullanılan Kavramlar](#kullanılan-kavramlar-v)
+    - [Kazanımlar](#kazanımlar-v)
+    - [Tartışma Soruları](#tartışma-soruları-v)
+    - [Video Anlatım](#video-anlatım-v)
 
 ## Hello World I
 
@@ -65,46 +64,42 @@ Bu uygulama sonrasında öğrencilerden bazı sorular beklenir veya bir tartış
 - Level, sayısal bir değer yerine daha akılda kalıcı bir isimle ifade edilebilir mi? _(Enum türü için yönlendirme)_
 - Döngü için tek kullanım şeklide foreach midir? Farklı yollar var mıdır? _(Diğer yolları pratik etmek için ödev verilebilir)_
 
-### Video Anlatım
-
-Kısmet diyelim :D
-
 ## Hello World II
 
-### Senaryo
+### Senaryo II
 
-### Kullanılan Kavramlar
+### Kullanılan Kavramlar II
 
-### Kazanımlar
+### Kazanımlar II
 
-### Tartışma Soruları
+### Tartışma Soruları II
 
 ## Hello World III
 
-### Senaryo
+### Senaryo III
 
-### Kullanılan Kavramlar
+### Kullanılan Kavramlar III
 
-### Kazanımlar
+### Kazanımlar III
 
-### Tartışma Soruları
+### Tartışma Soruları III
 
 ## Hello World IV
 
-### Senaryo
+### Senaryo IV
 
-### Kullanılan Kavramlar
+### Kullanılan Kavramlar IV
 
-### Kazanımlar
+### Kazanımlar IV
 
-### Tartışma Soruları
+### Tartışma Soruları IV
 
 ## Hello World V
 
-### Senaryo
+### Senaryo V
 
-### Kullanılan Kavramlar
+### Kullanılan Kavramlar V
 
-### Kazanımlar
+### Kazanımlar V
 
-### Tartışma Soruları
+### Tartışma Soruları V
