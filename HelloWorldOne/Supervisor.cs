@@ -1,5 +1,4 @@
 ﻿using System.Text.Json;
-using System.Text.Json.Serialization;
 
 namespace HelloWorldOne;
 
@@ -20,7 +19,7 @@ public class Supervisor
 
     public Homework? GetRandom()
     {
-        Random rnd = new Random();
+        Random rnd = new();
         var index = rnd.Next(0, _homeworks.Count);
         return _homeworks[index];
     }
