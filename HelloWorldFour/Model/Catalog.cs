@@ -8,4 +8,9 @@ public class Catalog
         Console.WriteLine($"{service.Alias} added to catalog");
         Services.Add(service);
     }
+
+    // public void WriteToFile()
+    // {
+    //     throw new NotImplementedException();
+    // }
 }

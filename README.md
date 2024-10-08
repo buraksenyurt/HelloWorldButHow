@@ -128,23 +128,33 @@ Bu senaryo zor görünse de aslında yapılan bol bol sınıf tasarlamak, bu sı
 
 ## Hello World IV
 
-NotImplementedException();
+İlk iki senaryoda bahsedilen profil ve üstü bu senaryoda ile de çalışabilir. Belki daha önceden MVC gibi modellere bakmış olanlar için Model View klasörlerini açıklamak daha kolay olabilir.
 
 ### Senaryo IV
 
-NotImplementedException();
+Terminal kullanıcısı bir servis bilgisini basit bir koleksiyonda toplamak için gerekli işlemleri yapar. Program servisler için çok basit anlamda takma isim, ip ve port bilgilerini alır. Örneğin redis hizmeti için Redis takma adıyla https://127.0.0.1:6379 gibi bir bilgi oluşur. Buna benzer servis bilgileri bir nesne koleksiyonunda toplanır ve fiziki olarak bir dosyaya kayıt edilir.
 
 ### Kullanılan Kavramlar IV
 
-NotImplementedException();
+- Basit model nesnesi oluşturmak
+- Static metot kullanımı
+- Static metod ile nesne inşa etmek _(static factory method)_
+- Fonksiyonellikleri ilgili sınıflar içerisine dağıtmak
+- Tuple, generic List veri türlerini kullanmak
+- Olay _(Event)_ tanımı ve basit kullanımı
+- Metot override işlemi
+- private, public farkları
 
 ### Kazanımlar IV
 
-NotImplementedException();
+Bu örnekte bir nesnenin oluşturulmasını kontrol altına almak önemli noktalardan birisidir. Service sınıfının alanlarına hatalı değerler atanması muhtemeldir. Geçeriz IP adresi, anlamsız takma isimler, hatalı port'lar vs. Senaryo basit olarak ele alınmıştır ve bu anlamda sadece üç özellik üzerinden ilerlenmiştir. Service nesnesine ait constructor private hale getirilip üretimin static bir fonksiyona alınmasının anlaşışması önemlidir. Bu daha kapsamlı nesne inşa işlemlerinde Creational Design Pattern konusu için de bir ön zemin hazırlayabilir. Basit bir terminal uygulaması da olsa ekrandaki başlık, inventory içeriğinin ekrana basılması veya kullanıcıdan girdi alınması gibi işlemler static fonksiyonlar haline getirilip View isim alanında yer alan Terminal sınıfı altına alınmıştır. Bu felsefede kodun okunur olması, ana kodun yalınlaştırılması, terminal bile olsa görünüm ile ilgili işlerin başka bir enstrümana yüklenmesi gibi kavramlar öne çıkartılır. Pek tabii tuple gibi türlere, nullable olma hallerine de değinilir. Öğrencilerin daha verimli çıktılar elde edebilmesi için aynı sınıfın Builder kalıbı ile oluşturulması ödev olarak verilebilir.
 
 ### Tartışma Soruları IV
 
-NotImplementedException();
+- Service nesnesini oluşturan fonksiyondan null değer döndürmek yerine daha işe yarar ve anlamlı bir şey döndürülebilir mi? _(Result pattern için bir zemin hazırlanabilir Farklı dillerde bu işin nasıl ele alındığı belki ele alınabilir. Örneğin rust dilinde)_
+- Tekrar eden servis bilgileri eklenmek istendiğinde bu nasıl karşılanmalıdır _(Sınıfça tartışılabilir)_
+- Bazı portlar işletim sistemine özeldir ve kullanılamayabilir. Bunun için bir Policy listesi kullanılmak istense bu sisteme nasıl entegre edilebilir.
+- Service'lerin ayakta olup olmadığı kontrol edilmek istense bunun için nereye nasıl bir fonksiyon yazılabilir _(Sadece tartışmaya açılır. Amaç Service Discovery gibi mekanizmalara, Consul gibi araçlara zemin hazırlamaktır)_
 
 ## Hello World V
 
