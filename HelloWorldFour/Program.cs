@@ -1,49 +1,33 @@
 ﻿using HelloWorldFour.Model;
-
-var title = "Service Discovery Tool";
-Console.WriteLine(new string('*', title.Length+4));
-Console.WriteLine($"* {title} *");
-Console.WriteLine(new string('*', title.Length+4));
-Console.WriteLine("To continue press Enter, for exit write exit :D or Ctrl+C");
+using HelloWorldFour.View;
 
 var serviceCatalog = new Catalog();
 
+/*
+    Bir nesneye event yükleme biraz kafa karıştırıcı olabilir.
+    Şimdilik sadece Ctrl+C/Break durumlarını ele alıp programı kapatmak istediğimizde
+    ekrana Inventory'nin son halini basmak için kullanıldığı ifade edilebilir.
+*/
+Console.CancelKeyPress += (obj, args) => Terminal.ShowInventory(serviceCatalog);
+
+// Basit görüntüleme işlemleri bile olsa bunları metotlaştırma
+Terminal.ShowSplash();
+
+// Sonsuz döngü
 while (true)
 {
-    if (Console.ReadLine().ToLower() == "exit")
-        break;
+    Console.WriteLine("To continue press Enter, for exit press Ctrl+C/Break");
 
-    var (alias, ip, port) = GetInputs();
+    // Tuple Kullanımı
+    var (alias, ip, port) = Terminal.GetInputs();
 
     // İlk sürüm
     // var endPoint = new Service(alias, ip, port);
-    // Ulaşılmak istenen sürümlerden birisi (Factory)
+
+    // Ulaşılmak istenen sürümlerden birisi (Static Factory Method kullanımı)
     var endPoint = Service.Create(alias, ip, port);
-    if (endPoint == null)
+    if (endPoint != null)
     {
-        Console.WriteLine("Invalid endpoint");
-        continue;
-    }
-    else
-    {
-        Console.WriteLine($"{endPoint} added to catalog");
         serviceCatalog.Add(endPoint);
     }
-}
-
-Console.WriteLine("Service Inventory");
-foreach (var service in serviceCatalog.Services)
-{
-    Console.WriteLine(service);
-}
-
-static (string?, string?, short) GetInputs()
-{
-    Console.WriteLine("Alias ");
-    string? alias = Console.ReadLine();
-    Console.WriteLine("Ip");
-    string? ip = Console.ReadLine();
-    Console.WriteLine("Port");
-    _ = short.TryParse(Console.ReadLine(), out short port);
-    return (alias, ip, port);
 }
